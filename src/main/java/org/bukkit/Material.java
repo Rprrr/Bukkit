@@ -207,6 +207,19 @@ public enum Material {
     WOOD_BUTTON(143, Button.class),
     SKULL(144, Skull.class),
     ANVIL(145),
+    TRAPPED_CHEST(146),
+    WEIGHTEDPLATE_LIGHT(147),
+    WEIGHTEDPLATE_HEAVY(148),
+    COMPARATOR_INACTIVE(149),
+    COMPARATOR_ACTIVE(150),
+    DAYLIGHT_DETECTOR(151),
+    REDSTONE_BLOCK(152),
+    NETHER_QUARTZ_ORE(153),
+    HOPPER(154),
+    QUARTZ(155),
+    QUARTZ_STAIRS(156),
+    ACTIVATOR_RAILS(157),
+    DROPPER(158),
     // ----- Item Separator -----
     IRON_SPADE(256, 1, 250),
     IRON_PICKAXE(257, 1, 250),
@@ -362,6 +375,11 @@ public enum Material {
     FIREWORK(401),
     FIREWORK_CHARGE(402),
     ENCHANTED_BOOK(403, 1),
+    COMPARATOR(404),
+    NETHERBRICK(405),
+    NETHER_QUARTZ(406),
+    MINECART_TNT(407, 1),
+    MINECART_HOPPER(408, 1),
     GOLD_RECORD(2256, 1),
     GREEN_RECORD(2257, 1),
     RECORD_3(2258, 1),
@@ -705,6 +723,16 @@ public enum Material {
             case BEACON:
             case COBBLE_WALL:
             case ANVIL:
+            case TRAPPED_CHEST:
+            case WEIGHTEDPLATE_LIGHT:
+            case WEIGHTEDPLATE_HEAVY:
+            case DAYLIGHT_DETECTOR:
+            case REDSTONE_BLOCK:
+            case NETHER_QUARTZ_ORE:
+            case HOPPER:
+            case QUARTZ:
+            case QUARTZ_STAIRS:
+            case DROPPER:
                 return true;
             default:
                 return false;
@@ -760,6 +788,9 @@ public enum Material {
             case POTATO:
             case WOOD_BUTTON:
             case SKULL:
+            case COMPARATOR_INACTIVE:
+            case COMPARATOR_ACTIVE:
+            case ACTIVATOR_RAILS:
                 return true;
             default:
                 return false;
@@ -806,6 +837,8 @@ public enum Material {
             case SPRUCE_WOOD_STAIRS:
             case BIRCH_WOOD_STAIRS:
             case JUNGLE_WOOD_STAIRS:
+            case TRAPPED_CHEST:
+            case DAYLIGHT_DETECTOR:
                 return true;
             default:
                 return false;
@@ -910,6 +943,9 @@ public enum Material {
             case EMERALD_ORE:
             case EMERALD_BLOCK:
             case COMMAND:
+            case NETHER_QUARTZ_ORE:
+            case QUARTZ:
+            case DROPPER:
                 return true;
             default:
                 return false;

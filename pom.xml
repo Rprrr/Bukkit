@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.bukkit</groupId>
     <artifactId>bukkit</artifactId>
-    <version>13w09c-R0.1-SNAPSHOT</version>
+    <version>1.5pre-R0.1-SNAPSHOT</version>
     <name>Bukkit</name>
     <url>http://www.bukkit.org</url>
 

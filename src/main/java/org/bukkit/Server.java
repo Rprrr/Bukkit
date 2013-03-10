@@ -26,6 +26,7 @@ import org.bukkit.plugin.ServicesManager;
 import org.bukkit.plugin.messaging.Messenger;
 import org.bukkit.plugin.messaging.PluginMessageRecipient;
 import org.bukkit.scheduler.BukkitScheduler;
+import org.bukkit.scoreboard.Scoreboard;
 
 import com.avaje.ebean.config.ServerConfig;
 import org.bukkit.inventory.ItemFactory;
@@ -689,4 +690,11 @@ public interface Server extends PluginMessageRecipient {
      * @see ItemFactory
      */
     ItemFactory getItemFactory();
+
+    /**
+     * Get the server's scoreboard
+     *
+     * @return scoreboard
+     */
+    public Scoreboard getScoreboard();
 }
